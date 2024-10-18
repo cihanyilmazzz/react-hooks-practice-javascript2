@@ -1,0 +1,61 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+.course-list {
+  flex: 1;
+}
+
+.course-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.course-list li {
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.course-list li:hover {
+  background-color: #f0f0f0;
+}
+
+.course-details {
+  flex: 2;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.lesson-content {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+  }
+}
